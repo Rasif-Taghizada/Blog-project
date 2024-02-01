@@ -6,6 +6,16 @@
     align-items: center;
 }
 
+.create-blog {
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.create-blog:hover {
+    text-decoration: underline;
+}
+
 .blog-card {
     width: 100%;
     display: flex;

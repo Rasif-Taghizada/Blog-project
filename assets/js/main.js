@@ -1,8 +1,10 @@
 const blogsContainer = document.querySelector(".blogs-container");
+let allData;
 
 async function getBlogsData() {
   const res = await fetch("http://localhost:3000/blogs");
   const blogsData = await res.json();
+  allData = blogsData;
 
   const blogsUsers = await Promise.all(
     blogsData.map(async (blog) => {
@@ -11,8 +13,6 @@ async function getBlogsData() {
       return data;
     })
   );
-  console.log(blogsData);
-  console.log(blogsUsers);
   repeatBlog(blogsData, blogsUsers);
 }
 getBlogsData();
@@ -26,6 +26,7 @@ function repeatBlog(blogs, users) {
       month: "long",
       day: "numeric",
     });
+    const blogEncID = CryptoJS.AES.encrypt(blog.id, "mastercode").toString();
     blogsContainer.innerHTML += `
         <div class="blog-card">
             <div class="blog-content">
@@ -37,13 +38,13 @@ function repeatBlog(blogs, users) {
             <div class="blog-about">
               <div class="like-comment">
                 <div class="like-contet">
-                  <i class="fa-regular fa-thumbs-up" onclick="likeBlog(this, '${
-                    blog.id
-                  }')"></i>
-                  <span class="like-count">${blog.like}</span>
+                  <i class="fa-${
+                    blog.likes.includes(userID) ? "solid" : "regular"
+                  } fa-thumbs-up" onclick="likeBlog(this, '${blog.id}')"></i>
+                  <span class="like-count">${blog.likes?.length}</span>
                 </div>
               </div>
-                <a href="#" class="read-btn">Read More</a>
+                <a href="blog-about.html?blogID=${blogEncID}" class="read-btn">Read More</a>
                 <div class="blog-date">${blogDate}</div>
                 <div class="blog-author">
                     <img src="${users[index].photo}" alt="">
@@ -56,19 +57,20 @@ function repeatBlog(blogs, users) {
 }
 
 function likeBlog(elem, id) {
-  let likeHTML = elem.nextElementSibling;
-  let likeCount = Number(likeHTML.textContent);
-
-  if (likeCount == 0) {
-    likeCount++;
-    console.log(likeCount);
-    likeHTML.innerHTML = likeCount;
-  }
-  elem.classList.replace("fa-regular", "fa-solid");
-  const blogData = {
-    like: likeCount,
-  };
-  updateBlogData(id, blogData);
+  allData.forEach((blog) => {
+    if (blog.id === id && !blog.likes.includes(userID)) {
+      elem.classList.replace("fa-regular", "fa-solid");
+      const [postLikesData] = allData.filter((blog) => {
+        return blog.id === id;
+      });
+      const blogData = {
+        likes: [...postLikesData.likes, userID],
+      };
+      updateBlogData(id, blogData);
+    } else if (blog.id === id && blog.likes.includes(userID)) {
+      alert("sen buna like atmisan!");
+    }
+  });
 }
 
 function updateBlogData(blogID, data) {

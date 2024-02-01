@@ -17,13 +17,16 @@ function checkUser() {
           user.fullName === username.value &&
           user.password === password.value
         ) {
+          var encrypted = CryptoJS.AES.encrypt(user.id, "mastercode");
+          console.log(encrypted.toString());
+
           if (rememberMe.checked) {
-            localStorage.setItem("user", user.id);
+            localStorage.setItem("user", encrypted);
           } else {
-            sessionStorage.setItem("user", user.id);
+            sessionStorage.setItem("user", encrypted);
           }
           alert("user found");
-          window.location.href = "./create_blog.html?user=" + user.id;
+          window.location.href = "./create_blog.html";
         } else {
           console.log("user not found");
         }

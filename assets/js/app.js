@@ -28,7 +28,6 @@ function validateForm() {
   const fullnameRegex = /^[a-z,',-]+(\s)[a-z,',-]+$/i;
   const passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/;
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  const photoRegex = /\.(jpe?g|png|gif|bmp)$/i;
 
   //* checking inputs:
   if (form.username.value !== "" && fullnameRegex.test(form.username.value)) {

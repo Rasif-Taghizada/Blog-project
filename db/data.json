@@ -6,7 +6,10 @@
       "title": "React Server Components - A New Paradigm",
       "description": "It has been quite a few years since React released hooks and over that time opinions have changed from super excited to extremley frustrated. Developers are becoming more and more frustrated with React hooks and that is almost entirely due to fetching data and more specifically the useEffect hook.\n\nBefore React fetching data was a simple process you did on the server before rendering your pages, but with React pushing everything to the client this data fetching became infinitely more complex since you now had additional error and loading states to deal with. This is where server components come in. Server components are a new way of writing React applications and drastically simplifies the painful process of fetching data while retaining all the benefits of React.\n\nWhat Are Server Components?\nThe big thing that makes server component different than client components is that server components never render on the client and instead only render on the server. This may sound like a downside since these components are less flexible, but since these components never touch the client it makes data fetching a breeze. Here is a comparison of a client component and a server component.",
       "cratedAt": "2024-01-30T15:24:22.869Z",
-      "like": 1
+      "likes": [
+        "25ae",
+        "b38a"
+      ]
     },
     {
       "id": "011a",
@@ -14,7 +17,10 @@
       "title": "Markdown Crash Course",
       "description": "I love Markdown. It is a fairly easy to use markup language that lets you write simple text which can then be converted to HTML (or any other medium) with ease. It is used in many places, such as, GitHub README files, Reddit comments, and even this blog. That’s right every article in this blog is written using Markdown which just goes to show how powerful Markdown is and in this quick article I will share everything you need to know about Markdown. Also, if you want you can check out the source code for this article since it is written in Markdown. Just make sure you view the Code tab and not the Preview tab if you want to see what the actual code looks like.\n\nTechnically, my blog is written using MDX. MDX is very similar to Markdown, but it allows you to use React components within Markdown. This is how I am able to include the interactive Markdown editor you see throughout this article.\n\nPS: I have a complete Markdown cheat sheet that covers everything you need to know about Markdown with visual examples that you can download for free.",
       "cratedAt": "2024-01-30T15:25:11.389Z",
-      "like": 1
+      "likes": [
+        "25ae",
+        "b38a"
+      ]
     },
     {
       "id": "e4c3",
@@ -22,7 +28,7 @@
       "title": "How To Speed Up Page Load With Responsive Images",
       "description": "Making sure your images look good on all screen sizes is a difficult task since you need to consider the size of the image, where the image is placed, how much of the image is shown, the speed of the user’s connection, and so much more. What ends up happening is most developers will just use the same image for all screen sizes and let the browser resize the image to fit the screen. This is a bad practice because the browser will still download the full size image (which is generally very large) even if it is only being displayed at a fraction of its size. This is a waste of your user’s bandwidth and will slow down your page load times significantly (especially on slower connections).\n\nThe solution to this problem is to use responsive images. Responsive images are images that are optimized for the user’s screen size. This means that the image will be downloaded at the correct size and quality for the user’s device. This will significantly reduce the amount of data that is transferred to the user and will speed up your page load times. There are many ways to implement responsive images, from simple to complex, and in this article I will be showing you all the ways you can render responsive images on your website.\n\nIf you prefer to learn visually, check out the video version of this article.",
       "cratedAt": "2024-01-30T15:25:39.502Z",
-      "like": 0
+      "likes": []
     },
     {
       "id": "d83f",
@@ -30,7 +36,7 @@
       "title": "Modals Will Never Be The Same - HTML dialog Element",
       "description": "Modals have been a part of web development for decades now, but they have always been a bit of a pain to work with. The main reason modals have been such a pain is because it is difficult to make a truly accessible modal that conforms to all accessibility standards. This is why the new HTML dialog element is so exciting. The dialog element makes it so much easier to create accessible modals, and in this article I will explain everything you need to know about the dialog element to use it in your next project.\n\nIf you prefer to learn visually, check out the video version of this article.",
       "cratedAt": "2024-01-30T16:04:41.901Z",
-      "like": 0
+      "likes": []
     },
     {
       "id": "54f9",
@@ -38,7 +44,7 @@
       "title": "Facade Pattern Explained With Practical Examples",
       "description": "The facade pattern is one of my favorite design patterns because of how easily it can clean up your code. You have most likely already used this design pattern in your own programming without even realizing it. In this quick article I will explain what this pattern is and I will show you practical examples of how to use this pattern since too many tutorials focus on weird abstract examples that have nothing to do with programming and just leave you more confused than when you started reading.\n\nIf you prefer to learn visually, check out the video version of this article.\n\nWhat Is The Facade Pattern?\nThe idea of the facade pattern is explained directly in the name. It is just a facade you put in front of some code to make it easier to use. One easy example to look at would be saving a user to a database. You need to first validate all the user information, check that the email is not already taken, and then finally save the user to the database.",
       "cratedAt": "2024-01-30T17:08:27.303Z",
-      "like": 0
+      "likes": []
     },
     {
       "id": "9cbd",
@@ -46,28 +52,31 @@
       "title": "All 4 JavaScript Scopes Explained",
       "description": "If you have written even a single line of JavaScript code then you have used one of the four scopes of JavaScript without even realizing it. These different scope levels determine how your code will run, how easy your code is to write/change, and many other factors about your code so knowing all the nuances of each different scope is crucial. In this short article I will teach you what each scope level is, how they interact with your code, and what you can do with this knowledge to write better cleaner code.\n\nIf you prefer to learn visually, check out the video version of this article.",
       "cratedAt": "2024-01-30T18:36:59.561Z",
-      "like": 0
+      "likes": []
     },
     {
       "id": "7684",
       "userId": "b38a",
       "title": "All 4 JavaScript Scopes Explained",
       "description": "If you have written even a single line of JavaScript code then you have used one of the four scopes of JavaScript without even realizing it. These different scope levels determine how your code will run, how easy your code is to write/change, and many other factors about your code so knowing all the nuances of each different scope is crucial. In this short article I will teach you what each scope level is, how they interact with your code, and what you can do with this knowledge to write better cleaner code.\n\nIf you prefer to learn visually, check out the video version of this article.",
-      "cratedAt": "2024-01-30T19:11:19.600Z"
+      "cratedAt": "2024-01-30T19:11:19.600Z",
+      "likes": []
     },
     {
       "id": "07a8",
       "userId": "b38a",
       "title": "How To Use CSS Layers",
       "description": "One of the hardest parts of working with CSS is dealing with specificity. This is especially apparent if you are trying to overwrite styles from a framework like Bootstrap, but that is all changing with the introduction of CSS layers. This new feature allows you to create your own custom CSS layers that determine the specificity hierarchy of all CSS code for the first time ever. In this article I will be dissecting what this means for you, how it works, and how you can start using it today.\n\nIf you prefer to learn visually, check out the video version of this article.",
-      "cratedAt": "2024-01-30T19:12:46.193Z"
+      "cratedAt": "2024-01-30T19:12:46.193Z",
+      "likes": []
     },
     {
       "id": "1fee",
       "userId": "b38a",
       "title": "title 10",
       "description": "lorem ipsum set dolor",
-      "cratedAt": "2024-02-01T16:37:18.467Z"
+      "cratedAt": "2024-02-01T16:37:18.467Z",
+      "likes": []
     }
   ],
   "authors": [
