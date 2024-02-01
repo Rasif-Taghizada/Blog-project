@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create a blog</title>
+    <link rel="stylesheet" href="./assets/css/createblog.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Create Blog</h1>
+      <div class="all-blogs">
+        <a href="#">Go to all blogs</a>
+      </div>
+      <div class="user-profile">
+        <p>Username</p>
+        <img
+          src="./assets/images/profile_template.jpg"
+          alt=""
+          class="user-img"
+        />
+        <img src="./assets/images/logout.svg" alt="" class="logout" />
+      </div>
+    </header>
+    <form>
+      <label for="">
+        Blog Title
+        <input type="text" class="title" />
+      </label>
+      <label for="">
+        Blog Body
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          class="description"
+        ></textarea>
+      </label>
+      <button class="create-btn">Create Blog</button>
+    </form>
+
+    <script src="./assets/js/createBlog.js"></script>
+  </body>
+</html>
