@@ -60,7 +60,9 @@
       "title": "All 4 JavaScript Scopes Explained",
       "description": "If you have written even a single line of JavaScript code then you have used one of the four scopes of JavaScript without even realizing it. These different scope levels determine how your code will run, how easy your code is to write/change, and many other factors about your code so knowing all the nuances of each different scope is crucial. In this short article I will teach you what each scope level is, how they interact with your code, and what you can do with this knowledge to write better cleaner code.\n\nIf you prefer to learn visually, check out the video version of this article.",
       "cratedAt": "2024-01-30T19:11:19.600Z",
-      "likes": []
+      "likes": [
+        "25ae"
+      ]
     },
     {
       "id": "07a8",
@@ -68,7 +70,9 @@
       "title": "How To Use CSS Layers",
       "description": "One of the hardest parts of working with CSS is dealing with specificity. This is especially apparent if you are trying to overwrite styles from a framework like Bootstrap, but that is all changing with the introduction of CSS layers. This new feature allows you to create your own custom CSS layers that determine the specificity hierarchy of all CSS code for the first time ever. In this article I will be dissecting what this means for you, how it works, and how you can start using it today.\n\nIf you prefer to learn visually, check out the video version of this article.",
       "cratedAt": "2024-01-30T19:12:46.193Z",
-      "likes": []
+      "likes": [
+        "25ae"
+      ]
     },
     {
       "id": "1fee",

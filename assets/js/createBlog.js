@@ -1,5 +1,5 @@
 const createBlogBtn = document.querySelector(".create-btn");
-const allBlogsPage = document.querySelector(".all-blogs > a");
+const allBlogsPage = document.querySelector(".nav-link > a");
 const form = document.querySelector("form");
 allBlogsPage.href = "../../index.html";
 
@@ -8,16 +8,13 @@ form.addEventListener("submit", function (event) {
   createBlog();
 });
 
-
 async function createBlog() {
   const blogData = {
     userId: userID,
     title: form.querySelector(".title").value,
     description: form.querySelector(".description").value,
     cratedAt: new Date(),
-    likes: [
-      
-    ],
+    likes: [],
   };
 
   fetch("http://localhost:3000/blogs", {

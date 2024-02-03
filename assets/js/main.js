@@ -26,7 +26,6 @@ function repeatBlog(blogs, users) {
       month: "long",
       day: "numeric",
     });
-    const blogEncID = CryptoJS.AES.encrypt(blog.id, "mastercode").toString();
     blogsContainer.innerHTML += `
         <div class="blog-card">
             <div class="blog-content">
@@ -44,7 +43,9 @@ function repeatBlog(blogs, users) {
                   <span class="like-count">${blog.likes?.length}</span>
                 </div>
               </div>
-                <a href="blog-about.html?blogID=${blogEncID}" class="read-btn">Read More</a>
+                <a href="blog-about.html?blogID=${
+                  blog.id
+                }" class="read-btn">Read More</a>
                 <div class="blog-date">${blogDate}</div>
                 <div class="blog-author">
                     <img src="${users[index].photo}" alt="">

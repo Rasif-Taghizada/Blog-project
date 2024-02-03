@@ -1,15 +1,11 @@
-const params = window.location.search;
-const urlID = new URLSearchParams(params).get("blogID");
-const blogID = CryptoJS.AES.decrypt(urlID, "mastercode").toString(
-  CryptoJS.enc.Utf8
-);
-console.log(blogID);
-if (blogID) {
-  getBlogData();
-}
+const term = window.location.search;
+console.log(term);
+const search = new URLSearchParams(term);
+const blogID = search.get("blogID");
+getBlogData();
 
 async function getBlogData() {
-  const res = await fetch("http://localhost:3000/blogs/" + blogID);
-  const blogData = await res.json();
+  const response = await fetch("http://localhost:3000/blogs/" + blogID);
+  const blogData = await response.json();
   console.log(blogData);
 }
