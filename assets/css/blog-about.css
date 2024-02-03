@@ -35,28 +35,89 @@ article.topics h2 {
     color: cadetblue;
 }
 
-article.topics ul {
+article.topics h3 {
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    color: rgb(67, 127, 129);
+}
+
+article.topics ul.topic-list {
     list-style: none;
     padding: 0;
     display: flex;
     flex-direction: column;
 }
 
-article.topics ul li {
+
+article.topics .similar-blogs {
+    padding: 1rem;
+}
+
+.similar-blogs>li {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #1b1f20;
+    cursor: pointer;
+}
+
+.similar-blogs>li:hover {
+    background-color: #2a2e2f;
+}
+
+.similar-blogs>li>a {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+article.topics ul.topic-list li {
     border-bottom: 2px solid #c3c3c3;
     cursor: pointer;
 }
 
-article.topics ul li:hover {
+article.topics ul.topic-list li:hover {
     background-color: #c3c3c3;
 }
 
-ul li a {
+ul.topic-list li a {
     display: inline-block;
     color: blue;
     font-size: 1.1rem;
     padding: 10px 5px;
     font-weight: 600;
+}
+
+.user-events {
+    margin-top: 2rem;
+    padding: 1rem;
+    display: none;
+}
+
+.user-events.show {
+    display: block;
+}
+
+.user-events button {
+    padding: 10px;
+    font-size: 1.1rem;
+    background-color: #0DA3D6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.user-events button.edit-btn {
+    background-color: #0D8ED6;
+}
+
+.user-events button:hover {
+    background-color: #0D8ED6;
+}
+
+.user-events button.delete-btn {
+    background-color: #ff0000;
 }
 
 

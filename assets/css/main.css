@@ -20,6 +20,7 @@
 
 .blog-card {
     width: 48%;
+    height: 200px;
     display: flex;
     flex-direction: column;
     margin: 1rem 0;

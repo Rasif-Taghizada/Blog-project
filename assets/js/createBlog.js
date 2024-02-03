@@ -1,18 +1,24 @@
+const searchTerm = window.location.search;
+const editBlogID = new URLSearchParams(searchTerm)?.get("blogID");
 const createBlogBtn = document.querySelector(".create-btn");
-const allBlogsPage = document.querySelector(".nav-link > a");
 const form = document.querySelector("form");
-allBlogsPage.href = "../../index.html";
+const formTitle = form.querySelector(".title");
+const formDescription = form.querySelector(".description");
 
 form.addEventListener("submit", function (event) {
   event.preventDefault();
-  createBlog();
+  if (!editBlogID) {
+    createBlog();
+  } else {
+    updateBlog();
+  }
 });
 
 async function createBlog() {
   const blogData = {
     userId: userID,
-    title: form.querySelector(".title").value,
-    description: form.querySelector(".description").value,
+    title: formTitle.value,
+    description: formDescription.value,
     cratedAt: new Date(),
     likes: [],
   };
@@ -25,4 +31,36 @@ async function createBlog() {
     },
   }).then((res) => console.log(res));
   window.location.href = "../../index.html";
+}
+
+if (editBlogID) {
+  createBlogBtn.textContent = "Update Blog";
+  fetch("http://localhost:3000/blogs/" + editBlogID)
+    .then((res) => res.json())
+    .then((data) => {
+      formTitle.value = data.title;
+      formDescription.value = data.description;
+    });
+}
+
+function updateBlog() {
+  const blogData = {
+    title: formTitle.value,
+    description: formDescription.value,
+    updateAt: new Date(),
+  };
+
+  fetch("http://localhost:3000/blogs/" + editBlogID, {
+    method: "PATCH",
+    body: JSON.stringify(blogData),
+    headers: {
+      "Content-type": "application/json; charset=UTF-8",
+    },
+  })
+    .then((res) => res.json())
+    .then((data) => {
+      return data;
+    });
+
+  window.location.href = "/index.html";
 }
