@@ -20,7 +20,7 @@
 
 .blog-card {
     width: 48%;
-    height: 200px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     margin: 1rem 0;
@@ -47,6 +47,10 @@
     gap: 0.5rem;
 }
 
+.blog-author span {
+    font-weight: 700;
+}
+
 .blog-about .blog-author img {
     width: 3rem;
     height: 3rem;
@@ -55,7 +59,7 @@
 }
 
 .blog-card .blog-about .read-btn {
-    margin-top: 1rem;
+    white-space: nowrap;
     padding: 0.5rem 1rem;
     border: 1px solid rgb(68, 18, 232);
     border-radius: 0.5rem;
@@ -78,4 +82,19 @@
 .like-comment i.fa-thumbs-up {
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+
+
+@media (max-width: 1024px) {
+    .blog-card {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .blog-card {
+        width: 100%;
+    }
 }

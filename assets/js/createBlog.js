@@ -7,6 +7,7 @@ const formDescription = form.querySelector(".description");
 
 form.addEventListener("submit", function (event) {
   event.preventDefault();
+  console.log("salam");
   if (!editBlogID) {
     createBlog();
   } else {
@@ -21,6 +22,7 @@ async function createBlog() {
     description: formDescription.value,
     cratedAt: new Date(),
     likes: [],
+    comments: [],
   };
 
   fetch("http://localhost:3000/blogs", {
@@ -29,8 +31,10 @@ async function createBlog() {
     headers: {
       "Content-type": "application/json; charset=UTF-8",
     },
-  }).then((res) => console.log(res));
-  window.location.href = "../../index.html";
+  })
+    .then((res) => console.log(res))
+    .then((data) => console.log(data));
+  window.location.href = "/index.html";
 }
 
 if (editBlogID) {

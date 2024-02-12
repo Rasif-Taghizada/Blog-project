@@ -8,9 +8,37 @@
       "cratedAt": "2024-01-30T15:24:22.869Z",
       "likes": [
         "25ae",
-        "b38a"
+        "b38a",
+        "7ffe",
+        "a10b"
       ],
-      "updateAt": "2024-02-03T19:09:20.556Z"
+      "updateAt": "2024-02-03T19:09:20.556Z",
+      "comments": [
+        {
+          "comment": "bilmirem necencidi",
+          "userId": "a10b",
+          "userName": "Safar Aliyev",
+          "createdAt": "2024-02-06T18:57:51.018Z"
+        },
+        {
+          "comment": "ikinci",
+          "userId": "a10b",
+          "userName": "Safar Aliyev",
+          "createdAt": "2024-02-06T19:01:34.544Z"
+        },
+        {
+          "comment": "ucuncu",
+          "userId": "a10b",
+          "userName": "Safar Aliyev",
+          "createdAt": "2024-02-06T19:04:10.110Z"
+        },
+        {
+          "comment": "dorduncu",
+          "userId": "a10b",
+          "userName": "Safar Aliyev",
+          "createdAt": "2024-02-06T19:04:48.943Z"
+        }
+      ]
     },
     {
       "id": "011a",
@@ -20,8 +48,11 @@
       "cratedAt": "2024-01-30T15:25:11.389Z",
       "likes": [
         "25ae",
-        "b38a"
-      ]
+        "b38a",
+        "7ffe",
+        "a10b"
+      ],
+      "comments": []
     },
     {
       "id": "d83f",
@@ -30,8 +61,11 @@
       "description": "Modals have been a part of web development for decades now, but they have always been a bit of a pain to work with. The main reason modals have been such a pain is because it is difficult to make a truly accessible modal that conforms to all accessibility standards. This is why the new HTML dialog element is so exciting. The dialog element makes it so much easier to create accessible modals, and in this article I will explain everything you need to know about the dialog element to use it in your next project.\n\nIf you prefer to learn visually, check out the video version of this article.",
       "cratedAt": "2024-01-30T16:04:41.901Z",
       "likes": [
-        "25ae"
-      ]
+        "25ae",
+        "7ffe",
+        "a10b"
+      ],
+      "comments": []
     },
     {
       "id": "54f9",
@@ -39,7 +73,42 @@
       "title": "Facade Pattern Explained With Practical Examples",
       "description": "The facade pattern is one of my favorite design patterns because of how easily it can clean up your code. You have most likely already used this design pattern in your own programming without even realizing it. In this quick article I will explain what this pattern is and I will show you practical examples of how to use this pattern since too many tutorials focus on weird abstract examples that have nothing to do with programming and just leave you more confused than when you started reading.\n\nIf you prefer to learn visually, check out the video version of this article.\n\nWhat Is The Facade Pattern?\nThe idea of the facade pattern is explained directly in the name. It is just a facade you put in front of some code to make it easier to use. One easy example to look at would be saving a user to a database. You need to first validate all the user information, check that the email is not already taken, and then finally save the user to the database.",
       "cratedAt": "2024-01-30T17:08:27.303Z",
-      "likes": []
+      "likes": [
+        "7ffe",
+        "a10b"
+      ],
+      "comments": [
+        {
+          "comment": "first comment",
+          "userId": "a10b",
+          "userName": "Safar Aliyev",
+          "createdAt": "2024-02-06T19:05:40.295Z"
+        },
+        {
+          "comment": "ikinci comment",
+          "userId": "a10b",
+          "userName": "Safar Aliyev",
+          "createdAt": "2024-02-06T19:05:52.455Z"
+        },
+        {
+          "comment": "ucuncu comment",
+          "userId": "a10b",
+          "userName": "Safar Aliyev",
+          "createdAt": "2024-02-06T19:09:34.767Z"
+        },
+        {
+          "comment": "dorduncu",
+          "userId": "a10b",
+          "userName": "Safar Aliyev",
+          "createdAt": "2024-02-06T19:11:15.437Z"
+        },
+        {
+          "comment": "besinci",
+          "userId": "a10b",
+          "userName": "Safar Aliyev",
+          "createdAt": "2024-02-06T19:11:28.750Z"
+        }
+      ]
     },
     {
       "id": "9cbd",
@@ -47,7 +116,10 @@
       "title": "All 4 JavaScript Scopes Explained",
       "description": "If you have written even a single line of JavaScript code then you have used one of the four scopes of JavaScript without even realizing it. These different scope levels determine how your code will run, how easy your code is to write/change, and many other factors about your code so knowing all the nuances of each different scope is crucial. In this short article I will teach you what each scope level is, how they interact with your code, and what you can do with this knowledge to write better cleaner code.\n\nIf you prefer to learn visually, check out the video version of this article.",
       "cratedAt": "2024-01-30T18:36:59.561Z",
-      "likes": []
+      "likes": [
+        "7ffe"
+      ],
+      "comments": []
     },
     {
       "id": "7684",
@@ -56,8 +128,10 @@
       "description": "If you have written even a single line of JavaScript code then you have used one of the four scopes of JavaScript without even realizing it. These different scope levels determine how your code will run, how easy your code is to write/change, and many other factors about your code so knowing all the nuances of each different scope is crucial. In this short article I will teach you what each scope level is, how they interact with your code, and what you can do with this knowledge to write better cleaner code.\n\nIf you prefer to learn visually, check out the video version of this article.",
       "cratedAt": "2024-01-30T19:11:19.600Z",
       "likes": [
-        "25ae"
-      ]
+        "25ae",
+        "7ffe"
+      ],
+      "comments": []
     },
     {
       "id": "07a8",
@@ -66,8 +140,10 @@
       "description": "One of the hardest parts of working with CSS is dealing with specificity. This is especially apparent if you are trying to overwrite styles from a framework like Bootstrap, but that is all changing with the introduction of CSS layers. This new feature allows you to create your own custom CSS layers that determine the specificity hierarchy of all CSS code for the first time ever. In this article I will be dissecting what this means for you, how it works, and how you can start using it today.\n\nIf you prefer to learn visually, check out the video version of this article.",
       "cratedAt": "2024-01-30T19:12:46.193Z",
       "likes": [
-        "25ae"
-      ]
+        "25ae",
+        "7ffe"
+      ],
+      "comments": []
     },
     {
       "id": "756d",
@@ -77,8 +153,88 @@
       "cratedAt": "2024-02-03T17:24:31.761Z",
       "likes": [
         "25ae",
-        "b38a"
-      ]
+        "b38a",
+        "7ffe"
+      ],
+      "comments": []
+    },
+    {
+      "id": "8457",
+      "userId": "b38a",
+      "title": "How To Accept Payments With Stripe",
+      "description": "So you just created an amazing application and now you need to actually get paid for it but you have no idea where to start. That is perfect because in this article I will show you step by step how to setup Stripe with Node.js and accept payments through this beautiful UI.\n\nSetup\nThe first obvious step to get started is to create an account with Stripe. You will also need to make sure you fill in all information about your business (tax information, address, etc.) to ensure you are legally compliant before accepting payments. Once that is done the next step is to get your project setup.\n\nYou will need a Node.js server to integrate Stripe so if you do not already have a Node.js express server setup then you will need to do the following.\n\nSetting Up An Express Server\nRun npm init to create a package.json file for your project\nRun npm i stripe express dotenv to install stripe, express, and dotenv\nCreate a file called server.js and include the following code.\n// Load environment variables from the .env file into process.env\nrequire(\"dotenv\").config()\n\n// Setup express\nconst express = require(\"express\")\nconst app = express()\napp.use(express.json())\n\n// Setup Stripe\nconst stripe = require(\"stripe\")(process.env.STRIPE_PRIVATE_KEY)\n\n// This is the list of items we are selling\n// This will most likely come from a database or JSON file\nconst storeItems = new Map([\n  [1, { priceInCents: 10000, name: \"Learn React Today\" }],\n  [2, { priceInCents: 15000, name: \"Learn CSS Today\" }],\n])\n\n// Start up our server on port 3000\napp.listen(3000)\nConnecting The Client Side\nBefore we write any more code for the server we are going to focus on how you connect the client side of your application to the server. In my opinion the best way to do this is with a fetch request since most likely your server will be an API that you are calling from your client. The code to do this is as follows.\n\n// Initiate a POST request to the server\n// If the server is on a different domain than the client\n// then this needs to be the full url\n// http://localhost:3000/create-checkout-session\nfetch(\"/create-checkout-session\", {\n  method: \"POST\",\n  headers: {\n    \"Content-Type\": \"application/json\",\n  },\n  // Send along all the information about the items\n  body: JSON.stringify({\n    items: [\n      {\n        id: 1,\n        quantity: 2,\n      },\n      {\n        id: 2,\n        quantity: 1,\n      },\n    ],\n  }),\n})\n  .then(res => {\n    if (res.ok) return res.json()\n    // If there is an error then make sure we catch that\n    return res.json().then(e => Promise.reject(e))\n  })\n  .then(({ url }) => {\n    // On success redirect the customer to the returned URL\n    window.location = url\n  })\n  .catch(e => {\n    console.error(e.error)\n  })\nThis is a lot of code so let’s break down exactly what is happening. On the client we are making a request to an endpoint on our server and sending along the id and quantity of each item the customer wants to purchase. Then if the request is successful we redirect the customer to the url returned from the API.\n\nImportant Notes\nIf the server and client are on different domains then you will need to use the full server URL when doing the fetch request (http://localhost:3000/create-checkout-session instead of /create-checkout-session)\nNever send price information from the client to the server. Since the customer has access to the client code they could change the price information if we send it from the client. This is why everything is done with ids on the client and the server handles all Stripe integration and pricing.\nConnecting The Server Side\nWe now are able to make a request from the client to the server on an endpoint called /create-checkout-session. The next step for us is to create this endpoint on our server and return a valid URL to the client by adding the following code inside our server.js file.\n\n// Create a post request for /create-checkout-session\napp.post(\"/create-checkout-session\", async (req, res) => {\n  try {\n    // Create a checkout session with Stripe\n    const session = await stripe.checkout.sessions.create({\n      payment_method_types: [\"card\"],\n      // For each item use the id to get it's information\n      // Take that information and convert it to Stripe's format\n      line_items: req.body.items.map(({ id, quantity }) => {\n        const storeItem = storeItems.get(id)\n        return {\n          price_data: {\n            currency: \"usd\",\n            product_data: {\n              name: storeItem.name,\n            },\n            unit_amount: storeItem.priceInCents,\n          },\n          quantity: quantity,\n        }\n      }),\n      mode: \"payment\",\n      // Set a success and cancel URL we will send customers to\n      // These must be full URLs\n      // In the next section we will setup CLIENT_URL\n      success_url: `${process.env.CLIENT_URL}/success.html`,\n      cancel_url: `${process.env.CLIENT_URL}/cancel.html`,\n    })\n\n    res.json({ url: session.url })\n  } catch (e) {\n    // If there is an error send it to the client\n    res.status(500).json({ error: e.message })\n  }\n})",
+      "cratedAt": "2024-02-04T20:53:09.540Z",
+      "likes": [
+        "7ffe",
+        "a10b"
+      ],
+      "comments": []
+    },
+    {
+      "id": "07e7",
+      "userId": "b38a",
+      "title": "MongoDB Ultimate Guide",
+      "description": "MongoDB is a NoSQL document based database. Essentially, all the data in MongoDB is stored in JSON documents that are sorted into a variety of collections based on the type of data. It is one of the most popular NoSQL database options due to its relative ease of use and power. In this article I will be covering a ton of concepts and functions in MongoDB which touch on all the important aspects of MongoDB.\n\nI also have a full MongoDB cheat sheet you can download. It includes all the concepts talked about in this article with extra examples and explanations.\n\nIf you prefer to learn visually, check out the video version of this article.\n\n\nIn order to understand MongoDB we first need to talk about some basic terminology related to MongoDB databases.\n\nDatabase\nThe first term you need to understand is database. A database is simply a container for collections. A database in MongoDB is the same conceptually as a database in SQL and usually a project will have one database full of different collections.\n\nCollection\nA collection is a grouping of documents inside a database. This is the same conceptually as tables in a SQL database. Usually you will have one collection per data model. For example, your app may have users, posts, and products collections.\n\nDocument\nA document is just a record inside of a collection. This is conceptually the same as a row in a SQL table. A document generally represents one single object within a collection. In MongoDB a document is essentially just a JSON object.\n\nField\nThe last piece of terminology you need to understand is fields. A field is just a key value pair within a document. This is conceptually the same as a column in SQL. Each document contains a number of fields which contain information such as name, address, hobbies, etc. An important difference between SQL and MongoDB is that a field can contain values such as JSON objects and arrays instead of just strings, numbers, booleans, etc. Also, MongoDB documents can have different fields defined within the same collection. In SQL all rows in a table must have the same columns, but in MongoDB one document in the users collection could have the fields name, and age, while another user document could have the fields name, address, and hobbies.\n\nBasic Commands\nBefore we start dealing with data we first need to understand a few basic commands that allow us to deal with databases.\n\nmongosh\nThe first command is the mongosh command. This command is run in the terminal and gives us direct access to our local MongoDB installation. All future commands in this article will be run within this mongosh prompt.\n\nshow dbs\nThe show dbs command is a simple command that shows all MongoDB databases. If you run this you will notice that there are already some databases that were created when you installed MongoDB.\n\nuse <dbname>\nThis command lets you switch to a database based on the dbname variable. For example, use mydb will switch you to the mydb database. If there is no database with that name it will still swap you to that db and if you later add any data it will automatically create the db and add the data to it. Unlike SQL, MongoDB has no commands to create data/collections since they are automatically created when you add data.",
+      "cratedAt": "2024-02-04T20:59:57.826Z",
+      "likes": [
+        "7ffe",
+        "a10b"
+      ],
+      "comments": []
+    },
+    {
+      "id": "3d9c",
+      "userId": "b38a",
+      "title": "N + 1 Queries: The Easiest Way To Improve Performance",
+      "description": "Reducing load times by improving performance in an application is one of the best ways to improve user experience, and one of the easiest performance problems to fix is N + 1 queries. I personally have worked on applications where removing N + 1 queries reduced the load time of pages by 95%. It is very common for N + 1 query fixes to reduce page load time by 10% or more, so learning to address and fix them is crucial.\n\nWhat Are N + 1 Queries\nAn N + 1 query is a common performance problem related to querying a database. This problem comes from having a page where a list of N items is displayed and each item has additional related information about it displayed that is not in the same database table as the items being displayed. Most of the time when pages like this are created one database query is done to get the list of N items. Those N items are then looped through and inside that loop a new database query is done to get the related information. This leads to N queries being done inside the loop on top of the one query to get the list of items, thus leading to the name N + 1 query. In order to further visualize this idea let’s look at an example.\n\nImagine a page that lists a bunch of books and for each book it lists the name of the book and the name of the author. Also, imagine that for this application the database has two tables, one for books and one for authors. A common implementation of this page may look something like this.\n\nconst books = Book.getAll()\nbooks.forEach(book => {\n  const author = Author.findById(book.authorId)\n  console.log(`${book.name} was written by ${author.name}.`)\n})\nThis code works fine and prints out a list of books and their authors but it suffers from an N + 1 query. In the first line we get a list of all books, and then inside the loop we are querying for each individual author. Loading this page will lead to running queries that look something like this.\n\nSELECT name, authorId FROM books;\n\nSELECT name FROM authors WHERE authors.id = ${book_1.authorId};\nSELECT name FROM authors WHERE authors.id = ${book_2.authorId};\nSELECT name FROM authors WHERE authors.id = ${book_3.authorId};\n...\nSELECT name FROM authors WHERE authors.id = ${book_n-1.authorId};\nSELECT name FROM authors WHERE authors.id = ${book_n.authorId};\nObviously, this isn’t ideal since if there are 100 books in the list then 101 queries will be run which can drastically slow down the page load speed.\n\nHow To Fix N + 1 Queries\nIn order to fix this issue we need to run one query instead of N + 1 queries. To do this we need to take advantage of preloading, by loading all books and their authors in one query since we know that we need the author information for each book. This may look something like this.\n\nconst books = Book.getAllWithAuthor()\nbooks.forEach(book => {\n  console.log(`${book.name} was written by ${book.authorName}.`)\n})\nNow the only query being ran is inside the Book.getAllWithAuthor function. This query would look something like this.\n\nSELECT books.name AS name, authors.name AS authorName FROM books\nJOIN authors ON books.authorId = authors.id;\nAs you can see we are preloading all of the author names and books in one query so we never need to query the database again to get this information in the loop which means we only ever run one query no matter how large the book list becomes. Now writing these queries out by hand can be quite cumbersome and error prone which is why most popular database libraries will include their own way to preload data so you never have to worry about N + 1 queries.\n\nConclusion\nN + 1 queries are one of the most common performance problems in apps, since they are very easy to write and hard to spot. Luckily, this problem is incredibly easy to fix, though, and only requires a little bit of extra analysis into the database queries being run to ensure N + 1 queries are avoided.",
+      "cratedAt": "2024-02-04T21:06:00.012Z",
+      "likes": [
+        "7ffe"
+      ],
+      "comments": []
+    },
+    {
+      "id": "0887",
+      "userId": "b38a",
+      "title": "N + 1 Queries: The Easiest Way To Improve Performance",
+      "description": "Reducing load times by improving performance in an application is one of the best ways to improve user experience, and one of the easiest performance problems to fix is N + 1 queries. I personally have worked on applications where removing N + 1 queries reduced the load time of pages by 95%. It is very common for N + 1 query fixes to reduce page load time by 10% or more, so learning to address and fix them is crucial.\n\nWhat Are N + 1 Queries\nAn N + 1 query is a common performance problem related to querying a database. This problem comes from having a page where a list of N items is displayed and each item has additional related information about it displayed that is not in the same database table as the items being displayed. Most of the time when pages like this are created one database query is done to get the list of N items. Those N items are then looped through and inside that loop a new database query is done to get the related information. This leads to N queries being done inside the loop on top of the one query to get the list of items, thus leading to the name N + 1 query. In order to further visualize this idea let’s look at an example.\n\nImagine a page that lists a bunch of books and for each book it lists the name of the book and the name of the author. Also, imagine that for this application the database has two tables, one for books and one for authors. A common implementation of this page may look something like this.\n\nconst books = Book.getAll()\nbooks.forEach(book => {\n  const author = Author.findById(book.authorId)\n  console.log(`${book.name} was written by ${author.name}.`)\n})\nThis code works fine and prints out a list of books and their authors but it suffers from an N + 1 query. In the first line we get a list of all books, and then inside the loop we are querying for each individual author. Loading this page will lead to running queries that look something like this.\n\nSELECT name, authorId FROM books;\n\nSELECT name FROM authors WHERE authors.id = ${book_1.authorId};\nSELECT name FROM authors WHERE authors.id = ${book_2.authorId};\nSELECT name FROM authors WHERE authors.id = ${book_3.authorId};\n...\nSELECT name FROM authors WHERE authors.id = ${book_n-1.authorId};\nSELECT name FROM authors WHERE authors.id = ${book_n.authorId};\nObviously, this isn’t ideal since if there are 100 books in the list then 101 queries will be run which can drastically slow down the page load speed.\n\nHow To Fix N + 1 Queries\nIn order to fix this issue we need to run one query instead of N + 1 queries. To do this we need to take advantage of preloading, by loading all books and their authors in one query since we know that we need the author information for each book. This may look something like this.\n\nconst books = Book.getAllWithAuthor()\nbooks.forEach(book => {\n  console.log(`${book.name} was written by ${book.authorName}.`)\n})\nNow the only query being ran is inside the Book.getAllWithAuthor function. This query would look something like this.\n\nSELECT books.name AS name, authors.name AS authorName FROM books\nJOIN authors ON books.authorId = authors.id;\nAs you can see we are preloading all of the author names and books in one query so we never need to query the database again to get this information in the loop which means we only ever run one query no matter how large the book list becomes. Now writing these queries out by hand can be quite cumbersome and error prone which is why most popular database libraries will include their own way to preload data so you never have to worry about N + 1 queries.\n\nConclusion\nN + 1 queries are one of the most common performance problems in apps, since they are very easy to write and hard to spot. Luckily, this problem is incredibly easy to fix, though, and only requires a little bit of extra analysis into the database queries being run to ensure N + 1 queries are avoided.",
+      "cratedAt": "2024-02-04T21:06:39.407Z",
+      "likes": [
+        "7ffe",
+        "a10b"
+      ],
+      "comments": []
+    },
+    {
+      "id": "2be6",
+      "userId": "b38a",
+      "title": "How To Accept Payments With Stripe",
+      "description": "\nSetting Up An Express Server\nRun npm init to create a package.json file for your project\nRun npm i stripe express dotenv to install stripe, express, and dotenv\nCreate a file called server.js and include the following code.\n// Load environment variables from the .env file into process.env\nrequire(\"dotenv\").config()\n\n// Setup express\nconst express = require(\"express\")\nconst app = express()\napp.use(express.json())\n\n// Setup Stripe\nconst stripe = require(\"stripe\")(process.env.STRIPE_PRIVATE_KEY)\n\n// This is the list of items we are selling\n// This will most likely come from a database or JSON file\nconst storeItems = new Map([\n  [1, { priceInCents: 10000, name: \"Learn React Today\" }],\n  [2, { priceInCents: 15000, name: \"Learn CSS Today\" }],\n])\n\n// Start up our server on port 3000\napp.listen(3000)\nConnecting The Client Side\nBefore we write any more code for the server we are going to focus on how you connect the client side of your application to the server. In my opinion the best way to do this is with a fetch request since most likely your server will be an API that you are calling from your client. The code to do this is as follows.\n\n// Initiate a POST request to the server\n// If the server is on a different domain than the client\n// then this needs to be the full url\n// http://localhost:3000/create-checkout-session\nfetch(\"/create-checkout-session\", {\n  method: \"POST\",\n  headers: {\n    \"Content-Type\": \"application/json\",\n  },\n  // Send along all the information about the items\n  body: JSON.stringify({\n    items: [\n      {\n        id: 1,\n        quantity: 2,\n      },\n      {\n        id: 2,\n        quantity: 1,\n      },\n    ],\n  }),\n})\n  .then(res => {\n    if (res.ok) return res.json()\n    // If there is an error then make sure we catch that\n    return res.json().then(e => Promise.reject(e))\n  })\n  .then(({ url }) => {\n    // On success redirect the customer to the returned URL\n    window.location = url\n  })\n  .catch(e => {\n    console.error(e.error)\n  })",
+      "cratedAt": "2024-02-04T21:07:54.169Z",
+      "likes": [
+        "7ffe"
+      ],
+      "comments": []
+    },
+    {
+      "id": "8afc",
+      "userId": "25ae",
+      "title": "Semantic Versioning Explained",
+      "description": "Chances are at some point in your programming career you have downloaded a library to use within your code. When you download an external library it will come with a version number which makes upgrading and finding documentation for your exact version of the library easy. While the version number may just seem like an arbitrary combination of numbers and decimals, there is actually a ton of information that can be determined from the version number alone. This is what semantic versioning is all about.\n\nWhat Is Semantic Versioning?\nSemantic versioning is a set of rules that many libraries adhere to when determining how to increment their version numbers. A semantic version will always consist of three numbers separated by decimals which indicates the major, minor, and patch version of the library. The format of semantic versioning is as follows. MAJOR_VERSION.MINOR_VERSION.PATCH_VERSION. This means that the following semantic version 1.14.2 indicates a library that is in major version 1, minor version 14, and patch version 2.\n\nNow this is great, but what exactly do the different versions mean? Here is a direct quote from the documentation for semantic versioning which can be found here.\n\nGiven a version number MAJOR.MINOR.PATCH, increment the:\n\nMAJOR version when you make incompatible API changes,\nMINOR version when you add functionality in a backwards compatible manner, and\nPATCH version when you make backwards compatible bug fixes.\n\nLet’s go over the reason for upgrading each version in a little more depth.\n\nPatch Version\nAs the documentation says a patch version should only be updated when backwards compatible bug fixes are introduced. Patch versions are commonly incremented when bugs are discovered in between minor releases that need to be fixed quickly. One important thing about incrementing patch versions is that the public API of the library cannot change in anyway. The only thing that can change is the fixing of broken functionality.\n\nMinor Version\nThe minor version is a bit more involved since this will be incremented anytime new functionality is added to the library that is backward compatible. For example, if there was a math library that added the ability to calculate sine and cosine then the minor version of that library would need to be incremented when those new features are released. It is also important to reset the patch version whenever a new minor version is released. For example, if a library is at version 2.3.6 and a new minor version is released, the new version number would be 2.4.0. Another reason to increment the minor version number would be if a method in the library is deprecated. When a function is going to be removed in a major version it is usually ideal to deprecate it in a minor version before the release so users know that this method will be removed in the next major version upgrade.\n\nMajor Version\nThe last version number, the major version, is only to be incremented when breaking changes are introduced to the public API of the library. This could be major breaking changes like rewriting the entire library, or minor breaking changes like reworking a single component of the library. The important thing is that anytime a breaking change is introduced the major version of the application must be incremented. The minor version and patch version also need to be reset as soon as the major version is incremented. For example, if a library is doing a major version upgrade from 1.12.6 the new version would be 2.0.0.\n\nHow To Start Using Semantic Versioning?\nSemantic versioning is great for making it incredibly clear what changes are occurring in a library, but what if your library is just starting out? Having to increment the major version every single time the public API breaks is a ton of work since things will be rapidly changing as a public API is decided upon. Because of this, semantic versioning has a special condition for handling new rapidly changing libraries. If a library is in rapid early development stages then a major version number of 0 can be used. For example, the starting version for a brand new library would be 0.1.0. While in this initial development version the minor version can be used to indicate any new feature or breaking API change since most work in early development will result in breaking API changes. Once the public API is stable, then a release to version 1.0.0 is ideal so breaking changes can be easily tracked. This also lets potential users know that the library is stable and not likely to introduce breaking changes.\n\nHow To Handle Pre Release Versions?\nMany larger libraries with a large user base like to release beta versions of the library for early adopters to test and discover bugs in. This idea is called pre releases, and is supported by semantic versioning. If a library was in version 2.3.4 and the maintainers wanted to create a beta version of their 3.0.0 release for early adopters to test then they could create a version called 3.0.0-beta.1. The key to creating pre release versions like this is that they must come after the patch version and start with a hyphen. The pre release version can consist of any combination of letters, numbers, or hyphens and each part of the pre release version is separated by a decimal. For example 3.0.0-0.1.0 is another valid pre release version.\n\nConclusion\nIn conclusion semantic versioning makes it much easier to deal with upgrading and finding documentation as a user of libraries. It also makes it easier for the library maintainer to have a strict guideline to follow when creating new versions of their library. Without semantic versioning handling library dependencies would be nearly impossible, so next time you decide to create a package be sure to use semantic versioning.",
+      "cratedAt": "2024-02-04T21:19:22.914Z",
+      "likes": [
+        "7ffe",
+        "a10b"
+      ],
+      "comments": []
+    },
+    {
+      "id": "79ce",
+      "userId": "a10b",
+      "title": "How To Accept Payments With Stripe",
+      "description": "So you just created an amazing application and now you need to actually get paid for it but you have no idea where to start. That is perfect because in this article I will show you step by step how to setup Stripe with Node.js and accept payments through this beautiful UI.\n\nSetup\nThe first obvious step to get started is to create an account with Stripe. You will also need to make sure you fill in all information about your business (tax information, address, etc.) to ensure you are legally compliant before accepting payments. Once that is done the next step is to get your project setup.\n\nYou will need a Node.js server to integrate Stripe so if you do not already have a Node.js express server setup then you will need to do the following.\n\nSetting Up An Express Server\nRun npm init to create a package.json file for your project\nRun npm i stripe express dotenv to install stripe, express, and dotenv\nCreate a file called server.js and include the following code.\n// Load environment variables from the .env file into process.env\nrequire(\"dotenv\").config()\n\n// Setup express\nconst express = require(\"express\")\nconst app = express()\napp.use(express.json())\n\n// Setup Stripe\nconst stripe = require(\"stripe\")(process.env.STRIPE_PRIVATE_KEY)\n\n// This is the list of items we are selling\n// This will most likely come from a database or JSON file\nconst storeItems = new Map([\n  [1, { priceInCents: 10000, name: \"Learn React Today\" }],\n  [2, { priceInCents: 15000, name: \"Learn CSS Today\" }],\n])\n\n// Start up our server on port 3000\napp.listen(3000)\nConnecting The Client Side\nBefore we write any more code for the server we are going to focus on how you connect the client side of your application to the server. In my opinion the best way to do this is with a fetch request since most likely your server will be an API that you are calling from your client. The code to do this is as follows.\n\n// Initiate a POST request to the server\n// If the server is on a different domain than the client\n// then this needs to be the full url\n// http://localhost:3000/create-checkout-session\nfetch(\"/create-checkout-session\", {\n  method: \"POST\",\n  headers: {\n    \"Content-Type\": \"application/json\",\n  },\n  // Send along all the information about the items\n  body: JSON.stringify({\n    items: [\n      {\n        id: 1,\n        quantity: 2,\n      },\n      {\n        id: 2,\n        quantity: 1,\n      },\n    ],\n  }),\n})\n  .then(res => {\n    if (res.ok) return res.json()\n    // If there is an error then make sure we catch that\n    return res.json().then(e => Promise.reject(e))\n  })\n  .then(({ url }) => {\n    // On success redirect the customer to the returned URL\n    window.location = url\n  })\n  .catch(e => {\n    console.error(e.error)\n  })\nThis is a lot of code so let’s break down exactly what is happening. On the client we are making a request to an endpoint on our server and sending along the id and quantity of each item the customer wants to purchase. Then if the request is successful we redirect the customer to the url returned from the API.\n\nImportant Notes\nIf the server and client are on different domains then you will need to use the full server URL when doing the fetch request (http://localhost:3000/create-checkout-session instead of /create-checkout-session)\nNever send price information from the client to the server. Since the customer has access to the client code they could change the price information if we send it from the client. This is why everything is done with ids on the client and the server handles all Stripe integration and pricing.",
+      "cratedAt": "2024-02-06T17:24:25.355Z",
+      "likes": []
     }
   ],
   "authors": [
